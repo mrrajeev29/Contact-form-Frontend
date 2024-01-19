@@ -1,0 +1,63 @@
+.Head1{
+    color:darkgreen;
+    text-align: center;
+    margin-top: 7rem;
+}
+.Head2{
+    color:darkolivegreen ;
+    text-align: center;
+}
+.p1{
+    text-align: center;
+    color:red;
+}
+.p2{
+    text-align: center;
+    margin-left: 0.9rem;
+    color:red;
+}
+.p3{
+    text-align: center;
+    margin-left: 0.7rem;
+    color:red;
+}
+.p4{
+    text-align: center;
+    margin-left: -0.8rem;
+    color:red;
+}
+.p5{
+    text-align: center;
+    margin-left: -8rem;
+    color:red;
+}
+.p6{
+    text-align: center;
+    margin-left: 30.5rem;
+    color:red;
+    font-weight: 400;
+}
+.ta{
+    align-items: center;
+    width: 20rem;
+    height: 4rem;
+    text-align: center;
+    border-radius: 0.35rem;
+    border-color: blue;
+
+}
+
+.inp1,.inp2,.inp3,.inp4{
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 0.35rem;
+    border-color: blue;
+}
+.inp5{
+    align-items: center;
+    font-weight: 300;
+}
+.p7{
+    font-weight: 400;
+}

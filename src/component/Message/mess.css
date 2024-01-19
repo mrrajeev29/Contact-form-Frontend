@@ -1,0 +1,29 @@
+.thank{
+    text-align: center;
+
+}
+.home{
+    text-decoration:none;
+}
+
+
+
+*,
+  *::before,
+  *::after {
+    margin: 2rem auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    padding: 20px;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    padding: 50px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
