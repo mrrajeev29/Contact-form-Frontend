@@ -33,9 +33,9 @@ const Data=()=>
             <form onSubmit={handleSubmit} >  
                 <h1 className="Head1">Contact Form</h1>
                 <h2 className="Head2">Fill the below details to get Appointment</h2>
-                <p className="p1">Name : <input type="text" className="inp1" name="name" placeholder="Enter Your Name" value={name} onChange={ev =>setName(ev.target.value)} /></p>
+                <p className="p1">Name : <input type="text" className="inp1" name="name" placeholder="Enter Your Name" value={name} onChange={ev =>setName(ev.target.value)} required /></p>
                 <p className="p2" >Age : <input type="number" className="inp2" name="age"  placeholder="Enter Your Age" value={age} onChange={ev=> setAge(ev.target.value)} /></p>
-                <p className="p3">Mob : <input type="number" className="inp3" name="phone" placeholder="Enter Your Phone Number" value={mob} onChange={ev=> setMob(ev.target.value)} /></p>
+                <p className="p3">Mob : <input type="number" className="inp3" name="phone" placeholder="Enter Your Phone Number" value={mob} onChange={ev=> setMob(ev.target.value)} required /></p>
                 <p className="p4" >Alt Mob : <input type="number" className="inp4" name="altphone" placeholder="Enter Your Alt Phone Number" value={amob} onChange={ev=> setAmob(ev.target.value)} /></p>
                 <p className="p5">Tell More About Yourself : <textarea name="details" placeholder="Tell More About Self" className="ta" required value={details} onChange={ev=>setDetails(ev.target.value)} ></textarea></p>
                 <center>
